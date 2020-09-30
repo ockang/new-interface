@@ -313,6 +313,9 @@ function Header({ history }: { history: any }) {
             {t('pool')}
           </StyledNavLink>
           <StyledNavLink id={`stake-nav-link`} to={'/uni'} isActive={() => history.location.pathname.includes('/uni')}>
+            FIAT
+          </StyledNavLink>
+          <StyledNavLink id={`stake-nav-link`} to={'/uni'} isActive={() => history.location.pathname.includes('/uni')}>
             UNI
           </StyledNavLink>
           <StyledNavLink
